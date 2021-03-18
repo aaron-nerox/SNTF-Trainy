@@ -3,23 +3,53 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_schedule">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.nerostarx.sntf.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_schedule"
+        android:name="com.nerostarx.sntf.ui.schedule.ScheduleFragment"
+        android:label="@string/schedules"
+        tools:layout="@layout/fragment_schedule" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.nerostarx.sntf.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_notification"
+        android:name="com.nerostarx.sntf.ui.notifications.NotificationsFragment"
+        android:label="@string/notifications"
+        tools:layout="@layout/fragment_notifications" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.nerostarx.sntf.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_news"
+        android:name="com.nerostarx.sntf.ui.news.NewsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.nerostarx.sntf.ui.map.MapFragment"
+        android:label="@string/railways_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_benefits"
+        android:name="com.nerostarx.sntf.ui.benefits.BenefitsFragment"
+        android:label="@string/user_benefits"
+        tools:layout="@layout/fragment_benefits" />
+    <fragment
+        android:id="@+id/nav_reservation"
+        android:name="com.nerostarx.sntf.ui.reservation.ReservationsFragment"
+        android:label="@string/reservations"
+        tools:layout="@layout/fragment_reservations" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.nerostarx.sntf.ui.report.ReportFragment"
+        android:label="@string/report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.nerostarx.sntf.ui.settings.SettingsFragment"
+        android:label="@string/action_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.nerostarx.sntf.ui.about.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
 </navigation>

@@ -7,7 +7,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="schedules">Schedules</string>
+    <string name="about">About</string>
+    <string name="report">Report</string>
+    <string name="reservations">Reservations</string>
+    <string name="user_benefits">User benefits</string>
+    <string name="railways_map">Railways map</string>
+    <string name="news">News</string>
+    <string name="notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
