@@ -23,10 +23,6 @@
             android:icon="@drawable/ic_map"
             android:title="@string/railways_map" />
         <item
-            android:id="@+id/nav_benefits"
-            android:icon="@drawable/ic_benefits"
-            android:title="@string/user_benefits" />
-        <item
             android:id="@+id/nav_reservation"
             android:icon="@drawable/ic_pay"
             android:title="@string/reservations" />

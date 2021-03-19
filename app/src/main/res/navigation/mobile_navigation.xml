@@ -21,16 +21,21 @@
         android:id="@+id/nav_news"
         android:name="com.nerostarx.sntf.ui.news.NewsFragment"
         android:label="@string/news"
-        tools:layout="@layout/fragment_news" />
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/to_nav_detail"
+            app:destination="@id/nav_detail"
+            app:enterAnim="@android:anim/slide_in_left" />
+    </fragment>
     <fragment
         android:id="@+id/nav_map"
         android:name="com.nerostarx.sntf.ui.map.MapFragment"
         android:label="@string/railways_map"
         tools:layout="@layout/fragment_map" />
     <fragment
-        android:id="@+id/nav_benefits"
+        android:id="@+id/nav_detail"
         android:name="com.nerostarx.sntf.ui.benefits.BenefitsFragment"
-        android:label="@string/user_benefits"
+        android:label="details"
         tools:layout="@layout/fragment_benefits" />
     <fragment
         android:id="@+id/nav_reservation"

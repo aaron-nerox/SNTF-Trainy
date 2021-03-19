@@ -2,8 +2,6 @@ package com.nerostarx.sntf
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -36,7 +34,6 @@ class MainActivity : AppCompatActivity() {
                 , R.id.nav_notification
                 , R.id.nav_news
                 , R.id.nav_map
-                , R.id.nav_benefits
                 , R.id.nav_reservation
                 , R.id.nav_report
                 , R.id.nav_settings
