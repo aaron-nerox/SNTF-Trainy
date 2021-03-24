@@ -27,6 +27,6 @@ class NewsAdapter(val navController: NavController): RecyclerView.Adapter<NewsAd
         }
     }
 
-    override fun getItemCount(): Int = 6
+    override fun getItemCount(): Int = 4
 
 }

@@ -36,6 +36,6 @@ class DestinationAdapter(val navController: NavController)
         }
     }
 
-    override fun getItemCount(): Int = 6
+    override fun getItemCount(): Int = 4
 
 }

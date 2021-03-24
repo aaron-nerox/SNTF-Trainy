@@ -21,5 +21,11 @@
         <item name="cornerSizeTopRight">20dp</item>
     </style>
 
+    <style name="ShapeAppearanceOverlay.TheX.header_image" parent="ShapeAppearanceOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+    </style>
+
 
 </resources>

@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.TheX.image"
-        app:srcCompat="@drawable/train" />
+        app:srcCompat="@drawable/header" />
 
     <ImageView
         android:id="@+id/imageView"
