@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,6 +18,131 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/texxthsrtjsyk5"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:clipToPadding="false"
+            android:hint="depart"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@null"
+            app:boxBackgroundMode="outline"
+            app:boxCollapsedPaddingTop="0dp"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:boxStrokeColor="@color/white"
+            app:helperTextTextColor="@color/white"
+            app:hintEnabled="true"
+            app:hintTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/textView20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView20"
+            app:layout_constraintVertical_chainStyle="packed">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="clip_vertical"
+                android:breakStrategy="simple"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:paddingTop="12dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="true"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/texrgsergsrtjsyk5"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:clipToPadding="false"
+            android:hint="destination"
+            android:textColorHint="@color/white"
+            android:theme="@style/ShapeAppearanceOverlay.TheX.medium"
+            app:boxBackgroundColor="@null"
+            app:boxBackgroundMode="outline"
+            app:boxCollapsedPaddingTop="0dp"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:boxStrokeColor="@color/white"
+            app:helperTextTextColor="@color/white"
+            app:hintEnabled="true"
+            app:hintTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/textView20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texxthsrtjsyk5"
+            app:layout_constraintVertical_chainStyle="packed">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="clip_vertical"
+                android:breakStrategy="simple"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:paddingTop="12dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="true"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="?attr/colorOnPrimary"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="Search"
+            android:textColor="?android:attr/textColorPrimary"
+            app:cornerRadius="1000dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="date and time"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            app:icon="@drawable/ic_calendar"
+            app:iconTint="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/texrgsergsrtjsyk5"
+            app:layout_constraintStart_toStartOf="@+id/texrgsergsrtjsyk5"
+            app:layout_constraintTop_toBottomOf="@+id/texrgsergsrtjsyk5"
+            app:strokeColor="@color/white" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout

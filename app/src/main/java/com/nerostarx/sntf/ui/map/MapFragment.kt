@@ -6,9 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.OnMapReadyCallback
 import com.nerostarx.sntf.R
 
-class MapFragment : Fragment() {
+class MapFragment : Fragment(), OnMapReadyCallback {
 
     companion object {
         fun newInstance() = MapFragment()
@@ -23,8 +25,10 @@ class MapFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(MapViewModel::class.java)
-        // TODO: Use the ViewModel
+    }
+
+    override fun onMapReady(p0: GoogleMap?) {
+
     }
 
 }
