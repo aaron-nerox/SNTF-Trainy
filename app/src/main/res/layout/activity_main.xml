@@ -22,6 +22,7 @@
         android:fitsSystemWindows="true"
         app:itemShapeInsetTop="0dp"
         app:itemShapeInsetBottom="0dp"
+        app:itemShapeFillColor="@color/nav_item_color"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>
