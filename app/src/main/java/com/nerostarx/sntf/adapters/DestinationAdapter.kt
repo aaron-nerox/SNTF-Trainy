@@ -3,6 +3,7 @@ package com.nerostarx.sntf.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -29,8 +30,11 @@ class DestinationAdapter(val navController: NavController)
         holder.reserveButton.setOnClickListener {
             //ReservationDialog.createReservationDialog(holder.itemView.context)
             val dialog = MaterialAlertDialogBuilder(holder.itemView.context)
-                    .setView(R.layout.info_dialog)
-                    .create()
+                .setView(R.layout.info_dialog)
+                .setBackground(ContextCompat
+                    .getDrawable(holder.itemView.context
+                        , R.drawable.rectangle_back))
+                .create()
 
             dialog.show()
         }
