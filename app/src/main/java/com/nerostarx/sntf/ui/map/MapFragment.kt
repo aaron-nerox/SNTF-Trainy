@@ -16,7 +16,7 @@ import com.nerostarx.sntf.R
 class MapFragment : Fragment(), OnMapReadyCallback {
 
     private lateinit var viewModel: MapViewModel
-    private val API_KEY = "AIzaSyCvYZHnDSX4RfKZp-zsZ5s91-_2H-7Fk-E"
+    private val API_KEY = "your api key here"
     private lateinit var mapView: MapView
     private lateinit var gMap:GoogleMap
 
