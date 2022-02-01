@@ -4,7 +4,7 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/orange_200</item>
         <item name="colorPrimaryVariant">@color/orange_500</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/black_200</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/black_200</item>
         <item name="colorSecondaryVariant">@color/black_700</item>
@@ -12,7 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/transparent</item>
         <!-- Customize your theme here. -->
-        <item name="android:windowBackground">@drawable/window_back</item>
+        <item name="android:windowBackground">@color/black</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceOverlay.TheX.small</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceOverlay.TheX.medium</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceOverlay.TheX.larg</item>

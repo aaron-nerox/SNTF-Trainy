@@ -3,7 +3,7 @@
 
     <style name="ShapeAppearanceOverlay.TheX.small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">20dp</item>
+        <item name="cornerSize">15dp</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.TheX.medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
@@ -13,18 +13,17 @@
 
     <style name="ShapeAppearanceOverlay.TheX.larg" parent="ShapeAppearance.MaterialComponents.LargeComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">20dp</item>
+        <item name="cornerSize">25dp</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.TheX.image" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSize">50%</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.TheX.header_image" parent="ShapeAppearanceOverlay">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopRight">20dp</item>
-        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSize">20dp</item>
     </style>
 
 
