@@ -20,6 +20,8 @@
         android:layout_gravity="start"
         android:background="@drawable/nav_back"
         android:fitsSystemWindows="true"
+        app:itemShapeInsetTop="0dp"
+        app:itemShapeInsetBottom="0dp"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>
