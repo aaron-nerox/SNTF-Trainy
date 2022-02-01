@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="orange_100">#FCF7F0</color>
+    <color name="orange_100">#FFF8ED</color>
     <color name="orange_200">#FF9A00</color>
     <color name="orange_500">#FF8500</color>
 
     <color name="black_200">#222222</color>
-    <color name="black_700">#181818</color>
+    <color name="black_700">#333333</color>
     <color name="black">#111111</color>
     <color name="white">#FFFFFFFF</color>
     <color name="transparent">#00000000</color>
